@@ -6,19 +6,19 @@ export interface Address {
 export interface Review {
   avatar: string;
   name: string;
-  rating: number; // Example: 4.5
+  rating: number; 
   comment: string;
 }
 
 export interface PropertyProps {
   id: string;
   name: string;
-  image: string; // Main image of the property
-  additionalImages?: string[]; // Array of additional images
-  rating: number; // Example: 4.5
-  price: number; // Nightly price
+  image: string; 
+  additionalImages?: string[]; 
+  rating: number; 
+  price: number; 
   description: string;
   address: Address;
-  category: string[]; // Amenities and services (e.g., ["Wi-Fi", "Parking"])
-  reviews: Review[]; // Array of reviews
+  category: string[]; 
+  reviews: Review[]; 
 }
