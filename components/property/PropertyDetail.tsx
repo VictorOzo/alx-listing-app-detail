@@ -1,4 +1,4 @@
-import { PropertyProps } from "@/interfaces/index";
+import { PropertyProps } from "@/Interfaces/index";
 import Image from "next/image";
 
 const PropertyDetail: React.FC<{ property: PropertyProps }> = ({
